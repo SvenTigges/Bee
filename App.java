@@ -3,9 +3,9 @@ import java.io.OutputStream;
 public class App {
     public static void main(String[] args) {
 
-        Queen queen = new Queen();
-        Drone drone = new Drone();
-        Worker worker = new Worker();
+        HoneyBee queen = new Queen();
+        HoneyBee drone = new Drone();
+        HoneyBee worker = new Worker();
 
 
         ausgabe(queen.doYourJob());
