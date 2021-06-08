@@ -19,7 +19,9 @@ public class App {
 
         ausgabe("-----------------");
 
-
+        Bird bird = new Bird();
+        ausgabe(bird.fly());
+        ausgabe(bird.doYourJob());
     }
 
     private static void ausgabe(String outStr){
