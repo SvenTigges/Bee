@@ -1,4 +1,3 @@
-import java.io.OutputStream;
 
 public class App {
     public static void main(String[] args) {
@@ -17,10 +16,13 @@ public class App {
         ausgabe(queen.fly());
         ausgabe(drone.fly());
         ausgabe(worker.fly());
+
+        ausgabe("-----------------");
+
+
     }
 
     private static void ausgabe(String outStr){
         System.out.println(outStr);
     }
-
 }
